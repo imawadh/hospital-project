@@ -8,6 +8,7 @@ import Contact from '../pages/Contact'
 import MyAppointments from '../pages/MyAppointments'
 import MyProfile from '../pages/MyProfile'
 import Appointments from '../pages/Appointments'
+import Privacy from '../pages/Privacy'
 
 
 const AppRoutes = () => {
@@ -23,6 +24,8 @@ const AppRoutes = () => {
             <Route path="/profile" element={<MyProfile/>}></Route>
             <Route path="/my-appointments" element={<MyAppointments/>}></Route>
             <Route path="/my-appointments/:docId" element={<Appointments/>}></Route>
+            <Route path="/privacy" element={<Privacy/>}></Route>
+
         </Routes>
     </div>
   )

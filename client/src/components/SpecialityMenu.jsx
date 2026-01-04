@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const SpecialityMenu = () => {
   return (
-    <div className="flex flex-col items-center text-center py-10 px-4">
+    <div id="speciality" className="flex flex-col items-center text-center py-10 px-4">
 
       {/* Heading */}
       <h1 className="text-2xl md:text-3xl font-semibold mb-3">

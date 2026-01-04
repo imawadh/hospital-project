@@ -7,7 +7,7 @@ const Header = () => {
     const Navigate = useNavigate();
 
   return (
-    <div className="text-white bg-blue-500 flex flex-col md:flex-row items-center justify-between px-4 md:px-10  rounded py-4 lg:py-0">
+    <div className="text-white bg-blue-500 flex flex-col md:flex-row items-center justify-between px-4 md:px-10  rounded-4xl py-4 lg:py-0">
 
   {/* Left Side */}
   <section className="w-full md:w-1/2 text-center md:text-left">
@@ -28,13 +28,20 @@ const Header = () => {
       </p>
     </div>
 
-    <button
-      onClick={() => Navigate('/doctors')}
-      className="bg-white text-black px-5 py-2 rounded-3xl inline-flex items-center gap-2 hover:cursor-pointer mt-5 lg:mt-0"
-    >
-      Book Appointments
-      <img src={assets.arrow_icon} alt="" />
-    </button>
+    <a href="#speciality">
+      <button className="bg-white text-black px-5 py-2 rounded-3xl inline-flex items-center gap-2 hover:cursor-pointer">
+        <span>Book Appointments</span>
+        <img
+          src={assets.arrow_icon}
+          alt="arrow"
+          className="w-4 h-4"
+        />
+      </button>
+    </a>
+
+
+      
+   
   </section>
 
   {/* Right Side */}
