@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
         <div className=' block md:flex justify-between m-8'>
-            <div className='w-1/2'>
+            <div className='md:w-1/2 w-full '>
                 <section>
                     <div><img  className="mb-4" src={assets.logo} alt=""  /></div>
                     <div>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <section>
                     <h3 className='font-bold'>Get In Touch</h3>
                     <p>+91 7985000241</p>
-                    <address>awadhkishorsingh241@gmail.com</address>
+                    <address>info1@gmail.com</address>
                 </section>
             </div>
             
